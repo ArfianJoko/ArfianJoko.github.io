@@ -35,7 +35,7 @@ html,body{
 }
 
 .container{
-    padding-top: 20px;
+    padding-top: 50px;
     min-height: 100%;
     text-align: center;
 }
@@ -45,7 +45,7 @@ html,body{
 
 }
 
-.tagline h3{
+.tagline h2{
     font-weight: 200;
     color: #ffffff;
 }
@@ -143,15 +143,15 @@ a:active {
 .github {
     font-size: 22px;
     padding-top: 9px;
-    background-color: #4183c4;
+    background-color: #333333;
     color: #ffffff;
-    border-color: #4183c4;
+    border-color: #333333;
     
 }
 
 .github:hover {
     background-color: #ffffff;
-    color: #4183c4;
+    color: #333333;
 }
 
 .mail{
