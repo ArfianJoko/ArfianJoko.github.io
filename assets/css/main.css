@@ -220,7 +220,7 @@ a:hover{
 	-webkit-transform: translate3d(0,0,0);
 	-ms-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
-	background: url("images/background.jpg") bottom left;
+	background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/751678/my-illustration-background.png") bottom left;
 	background-repeat: repeat-x;
 	height: 100%;
 	left: 0;
