@@ -178,7 +178,31 @@ body{
     .context{
         width: 100%;
         position: absolute;
-        top: 30vh;
+        top: 28vh;
+    }
+    
+    .context h1{
+        text-align: center;
+        color: #fff;
+        font-size: 25px;
+    }
+    
+    .context p{
+        text-align: center;
+        color: #fff;
+        font-size: 15px;
+    }
+    
+    #icon{
+        color: #ffffff;
+        font-size: 20px;
+        margin: 15px 5px 0 5px;
+        padding: 10px;
+        border: 1px solid #ffffff;
+        border-radius: 100%;
+        width: 1em;
+        height: 1em;
+        transition: transform .2s;
     }
 
 }
