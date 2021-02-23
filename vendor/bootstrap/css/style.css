@@ -1,0 +1,154 @@
+/* -- Google Fonts -- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* -- Variable Css -- */
+:root{
+    --header-height: 2rem;
+    /* -- Color -- */
+    --title-color: #0B0A0A;
+    --text-color: #403A3A;
+    --text-color-light: #6b6b6b;
+    --container-color: #FAFAFA;
+    --container-color-alt: #F0EFEF;
+    --body-color: #FCFCFC;
+    /* -- Font And Typography -- */
+    --body-font: 'Poppins', sans-serif;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .875rem;
+    --smaller-font-size: .813rem;
+}
+
+html{
+    font-weight: 400;
+    scroll-behavior: smooth;
+}
+
+/* -- navbar -- */
+.navbar{
+    min-height: 80px;
+    box-shadow: 0 1px 8px rgba(202, 202, 202, 0.486);
+}
+
+.navbar-brand{
+    font-size:25px;
+}
+
+.nav-link{
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--title-color) !important;
+}
+
+.navbar .nav-item .dropdown-menu{
+    display: none; 
+}
+.navbar .nav-item:hover .nav-link{
+    color: rgba(0, 0, 0, 0.9);
+}
+.navbar .nav-item:hover .dropdown-menu{
+    display: block;
+    background-color: #f8f9fa;
+}
+.navbar .nav-item .dropdown-menu{
+    margin-top:0; 
+}
+
+.dropdown-toggle::after {
+    display:none;
+}
+
+/* -- image -- */
+.image__container{
+    position: relative;
+}
+
+.image__data{
+    width: 100%;
+}
+
+/* -- service --  */
+.service__container{
+    padding: 1rem;
+}
+
+.service__content{
+    display:grid;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    grid-template-columns: repeat(4, auto);
+}
+
+.service__content a{
+    text-decoration: none;
+}
+
+.service__data{
+    border: 2px solid var(--title-color);
+    font-size: var(--h2-font-size);
+    text-align: center;
+    padding: 4rem;
+    margin: 1rem;
+    cursor: pointer;
+    width: 18rem;
+    text-decoration: none;
+    color: var(--title-color);
+    font-weight: 300;
+}
+
+.service__data:hover{
+    transform: scale(1.03);
+    font-size: var(--h2-font-size);
+}
+
+/* -- content -- */
+.row{
+    padding: 3rem 3rem 3rem 3rem;
+
+}
+
+.a__content{
+    width: 25rem;
+}
+
+#b__content h2{
+    padding-top: 5rem;
+}
+
+#b__content p{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.c__content:hover{
+    text-decoration: none;
+}
+
+.c__content h3{
+    text-align: right;
+    padding-right: 4rem;
+}
+
+/* -- responsive area -- */
+@media all and (min-width: 400px){
+	.navbar .nav-item .dropdown-menu{
+        display: none; 
+    }
+	.navbar .nav-item:hover .nav-link{
+        color: rgba(0, 0, 0, 0.9);
+    }
+	.navbar .nav-item:hover .dropdown-menu{
+        display: block;
+        background-color: #f8f9fa;
+    }
+	.navbar .nav-item .dropdown-menu{
+        margin-top:0; 
+    }
+
+    .dropdown-toggle::after {
+        display:none;
+    }
+}	
