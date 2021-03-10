@@ -3,160 +3,268 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Test html css menggunakan bootstrap">
-    <title>Tes HTML CSS Menggunakan Bootstrap</title>
-    <!-- load bootstrap css -->
-    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.css">
-    <!-- load custom css -->
-    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/style.css">
+    <title>Hai.. I'm Arfian Joko</title>
+    <!-- Load Box Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Load Css -->
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand" href="#">PatnerIklan.com</a>
-            <div class="collapse navbar-collapse" id="navbar">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Homepage</a>
+    <!-- Header Start -->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Arfian Joko</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home nav__icon'></i>Home
+                        </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">News</a>
+                    <li class="nav__item">
+                        <a href="#profile" class="nav__link">
+                            <i class='bx bx-user nav__icon'></i>Profil
+                        </a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link  dropdown-toggle" href="#" data-toggle="dropdown">Produk</a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a class="dropdown-item" href="#">Google</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#">Facebook Ads</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#">SEO</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#">Training</a>
-                            </li>
-                        </ul>
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">
+                            <i class='bx bx-book nav__icon'></i>Pendidikan
+                        </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pemesanan</a>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-receipt nav__icon'></i>Kemampuan
+                        </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Kontak</a>
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">
+                            <i class='bx bx-briefcase-alt nav__icon'></i>Pengalaman
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#certificate" class="nav__link">
+                            <i class='bx bx-book-reader'></i></i>Projek
+                        </a>
                     </li>
                 </ul>
             </div>
-        </div>
-    </nav>
-    <!-- navbar -->
-    <!-- image -->
-    <div class="image__container">
-        <img src="image/background.jpg" alt="image" class="image__data">
-    </div>
-    <!-- image -->
-    <!-- service -->
-    <div class="service__container">
-        <ul class="service__content">
-            <a href="#googleadwords">
-                <li class="service__data">
-                    Google AdWords
-                </li>
-            </a>
-            <a href="#facebookads">
-                <li class="service__data">
-                    Facebook Ads
-                </li>
-            </a>
-            <a href="#seo">
-                <li class="service__data">
-                    SEO
-                </li>
-            </a>
-            <a href="#training">
-                <li class="service__data">
-                    Training
-                </li>
-            </a>
-        </ul>
-    </div>
-    <!-- service -->
-    <!-- Google AdWords -->
-    <div class="container-fluid" id="googleadwords">
-        <div class="row">
-            <div class="col-md-4">
-                <img src="image/google.png" class="a__content">
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'></i>
             </div>
-            <div class="col-md-8" id="b__content">
-                <h2>Google AdWords</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium tempora cumque voluptatibus? Accusamus, autem maxime fugiat in velit suscipit ab deleniti natus eius aliquid cupiditate quis omnis assumenda architecto soluta expedita itaque odit sapiente amet dicta ut impedit eligendi? Quis facilis ullam labore ipsam modi, expedita necessitatibus magni maxime? Nostrum dolorum quia dignissimos quam inventore architecto voluptatem suscipit nisi laborum quibusdam consequatur repellendus corporis, error ad in iure voluptatibus? Illo?</p>
-                <a href="#" class="c__content">
-                    <h3>Read More</h3>
-                </a>
+        </nav>
+    </header>
+    <!-- Header End -->
+    <!-- Main Start -->
+    <main class="l-main bd-container">
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+                <!-- Home -->
+                <section class="home" id="home">
+                    <div class="container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="assets/img/profil.jpg" alt="" class="home__img">
+                            <h1 class="home__title">ARFIAN <b>JOKO</b></h1>
+                            <h3 class="home__profession">Web Developer</h3>
+                            <div>
+                                <a href="assets/pdf/ResumeCv.pdf" class="home__button-cellular">Download</a>
+                            </div>
+                        </div>
+                        <div class="home__address bd-grid">
+                            <span class="home__information">
+                                <i class="bx bx-map home__icon"></i> Yogyakarta, Indonesia
+                            </span>
+                            <span class="home__information">
+                                <i class="bx bx-envelope home__icon"></i> arfianjo@gmail.com
+                            </span>
+                            <span class="home__information">
+                                <i class="bx bx-phone home__icon"></i> 08157642230
+                            </span>
+                        </div>
+                    </div>
+                    <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+                    <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+                </section>
+                <!-- Home -->
+                <!-- Social -->
+                <section class="social section">
+                    <h2 class="section-title">Sosial Media</h2>
+                    <div class="social__container bd-grid">
+                        <a href="https://www.linkedin.com/in/arfianjo/" target="_blank" class="social__link">
+                            <i class="bx bxl-linkedin-square social__icon"></i>@arfianjo
+                        </a>
+                        <a href="https://www.facebook.com/arfianjoo/" target="_blank" class="social__link">
+                            <i class="bx bxl-facebook social__icon"></i>@arfianjoo
+                        </a>
+                        <a href="https://www.instagram.com/arfianjo_/" target="_blank" class="social__link">
+                            <i class="bx bxl-instagram social__icon"></i>@arfianjo_
+                        </a>
+                    </div>
+                </section>
+                <!-- Social -->
+                <!-- Profile -->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">Profil</h2>
+                    <p class="profile__description">
+                        Hallo, perkenalkan nama saya Arfian Joko Rahayu, bisa di panggil Arfian, saya lahir di boyolali 07 september 1998, saya tertarik di pemrograman web sejak SMK, Selain pemrograman web saya juga tertarik belajar dengan hal-hal baru seperti pemprograman mobile.
+                    </p>
+                </section>
+                <!-- Profile -->
+                <!-- Education -->
+                <section class="education section" id="education">
+                    <h2 class="section-title">Pendidikan</h2>
+                    <div class="education__container bd-grid">
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Rekayasa Perangkat Lunak</h3>
+                                <span class="education__studies">Smk Muhammadiyah 04 Boyolali</span>
+                                <span class="education__year">2014 - 2016</span>
+                            </div>
+                        </div>
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                            </div>
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">D3 Teknik Informatika</h3>
+                                <span class="education__studies">Universitas Amikom Yogyakarta</span>
+                                <span class="education__year">2017 - 2020</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Education -->
             </div>
-        </div>
-        <div class="row" id="facebookads">
-            <div class="col-md-8" id="b__content">
-                <h2>Facebook Ads</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium tempora cumque voluptatibus? Accusamus, autem maxime fugiat in velit suscipit ab deleniti natus eius aliquid cupiditate quis omnis assumenda architecto soluta expedita itaque odit sapiente amet dicta ut impedit eligendi? Quis facilis ullam labore ipsam modi, expedita necessitatibus magni maxime? Nostrum dolorum quia dignissimos quam inventore architecto voluptatem suscipit nisi laborum quibusdam consequatur repellendus corporis, error ad in iure voluptatibus? Illo?</p>
-                <a href="#" class="c__content">
-                    <h3>Read More</h3>
-                </a>
+            <div class="resume__right">
+                <!-- Skills -->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Kemampuan</h2>
+                    <div class="skills__content bd-grid">
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Html 5
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Css (Bootstrap / Materialize)
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Javascript
+                            </li>
+                        </ul>
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> PHP (Codeigniter / Laravel)
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> MySQl
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- Skills -->
+                <!-- Experience -->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">Pengalaman Kerja</h2>
+                    <div class="experience__container bd-grid">
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Magang Junior Fullstack Web Developer</h3>
+                                <span class="experience__company">2019 to 2019 | Imersa Solusi Teknologi</span>
+                                <p class="exeperience__description">Membuat web aplikasi transpoartasi, menggunakn bahasa pemrograman php framework codeigniter dan menggunakan database MySql</p>
+                            </div>
+                        </div>
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Junior Fullstack Web Developer</h3>
+                                <span class="experience__company">2020 to 2021 | Global Eushanosoft</span>
+                                <p class="exeperience__description">Menambahkan Fitur Paket B2B di Website Umroh PT. Raudhah Multazam Indonesia <a href="http://umrohrmi.com/" target="_blank">Link</a></p>
+                                <p class="exeperience__description">Membuat Website idi puworejo <a href="http://idipurworejo.online/" target="_blank">Link</a>, menggunakan bahasa pemrograman php framework codeigniter dan menggunakan database MySql</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Experience -->
+                <!-- Certificates -->
+                <section class="certificate section" id="certificates">
+                    <h2 class="section-title">Bahasa</h2>
+                    <div class="certificate__container bd-grid">
+                        <div class="certificate_content">
+                            <h3 class="certificate__title">Web Aplikasi Transpoartasi | (PT. Imersa Solusi Teknologi)</h3>
+                            <p class="certificate_description">Web aplikasi transportasi dibuat dengan menggunakan framework php codeigniter dan database mysql</p>
+                        </div>
+                        <div class="certificate_content">
+                            <h3 class="certificate__title">Web Aplikasi Rental Mobil | (Projek Tugas Akhir)</h3>
+                            <p class="certificate_description">Web aplikasi rental mobil dibuat dengan menggunakan framework php codeigniter.</p>
+                        </div>
+                        <div class="certificate_content">
+                            <h3 class="certificate__title">Website IDI Purworejo | (PT. Global Eushanosoft)</h3>
+                            <p class="certificate_description">Website idi puworejo <a href="http://idipurworejo.online/" target="_blank">Link</a></p>
+                        </div>
+                    </div>
+                </section>
+                <!-- Certificates -->
+                <!-- Languages -->
+                <section class="languages section">
+                    <h2 class="section-title">Bahasa</h2>
+                    <div class="languages__container">
+                        <ul class="languages_content bd-grid">
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Bahasa Jawa
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Bahasa Indonesia
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- Languages -->
+                <!-- Interests -->
+                <section class="interests section">
+                    <h2 class="section-title">Hobi</h2>
+                    <div class="interests__container bd-grid">
+                        <div class="interests__content">
+                            <i class="bx bx-headphone interests__icon"></i>
+                            <span class="interests__name">Musik</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class="bx bxs-plane-alt interests__icon"></i>
+                            <span class="interests__name">Liburan</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class="bx bx-book interests__icon"></i>
+                            <span class="interests__name">Membaca Buku</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class="bx bx-dumbbell interests__icon"></i>
+                            <span class="interests__name">Olahraga</span>
+                        </div>
+                    </div>
+                </section>
+                <!-- Interests -->
             </div>
-            <div class="col-md-4">
-                <img src="image/facebook.png" class="a__content">
-            </div>
-        </div>
-        <div class="row" id="seo">
-            <div class="col-md-4">
-                <img src="image/seo.jpg" class="a__content">
-            </div>
-            <div class="col-md-8" id="b__content">
-                <h2>Seo</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium tempora cumque voluptatibus? Accusamus, autem maxime fugiat in velit suscipit ab deleniti natus eius aliquid cupiditate quis omnis assumenda architecto soluta expedita itaque odit sapiente amet dicta ut impedit eligendi? Quis facilis ullam labore ipsam modi, expedita necessitatibus magni maxime? Nostrum dolorum quia dignissimos quam inventore architecto voluptatem suscipit nisi laborum quibusdam consequatur repellendus corporis, error ad in iure voluptatibus? Illo?</p>
-                <a href="#" class="c__content">
-                    <h3>Read More</h3>
-                </a>
-            </div>
-        </div>
-        <div class="row" id="training">
-            <div class="col-md-8" id="b__content">
-                <h2>Training</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium tempora cumque voluptatibus? Accusamus, autem maxime fugiat in velit suscipit ab deleniti natus eius aliquid cupiditate quis omnis assumenda architecto soluta expedita itaque odit sapiente amet dicta ut impedit eligendi? Quis facilis ullam labore ipsam modi, expedita necessitatibus magni maxime? Nostrum dolorum quia dignissimos quam inventore architecto voluptatem suscipit nisi laborum quibusdam consequatur repellendus corporis, error ad in iure voluptatibus? Illo?</p>
-                <a href="#" class="c__content">
-                    <h3>Read More</h3>
-                </a>
-            </div>
-            <div class="col-md-4">
-                <img src="image/training.jpg" class="a__content">
-            </div>
-        </div>
-    </div>
-    <!-- Google AdWords -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script type="text/javascript" src="vendor/jquery/jquery.js"></script>
-    <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.js"></script>
-    <script type="text/javascript">
-        const sections = document.querySelectorAll('div[id]')
-        function scrollActive(){
-            const scrollY = window.pageYOffset
-            sections.forEach(current =>{
-                const sectionHeight = current.offsetHeight
-                const sectionTop = current.offsetTop - 50;
-                sectionId = current.getAttribute('id')
-                if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight){
-                    document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active-link')
-                }else{
-                    document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.remove('active-link')
-                }
-            })
-        }
-        window.addEventListener('scroll', scrollActive)
-    </script>
+        </div>        
+    </main>
+    <!-- Main End -->
+    <!-- Scroll Top Start -->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+    </a>
+    <!-- Scroll Top End -->
+
+    <!--========== HTML2PDF ==========-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.8.1/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
