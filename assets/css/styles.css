@@ -31,6 +31,11 @@
   --z-fixed: 100;
 }
 
+/* -- link color -- */
+#ling{
+  color: green;
+}
+
 /* -- Base -- */
 *,::before,::after{
   box-sizing: border-box;
