@@ -1,269 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hai.. Namaku Arfian Joko</title>
-    <!-- Load Box Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-    <!-- Load Css -->
-    <link rel="stylesheet" href="assets/css/styles.css">
+	<meta charset="UTF-8">
+	<title>Haii.. Aku Arfian Joko</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 </head>
 <body>
-    <!-- Header Start -->
-    <header class="l-header" id="header">
-        <nav class="nav bd-container">
-            <a href="#" class="nav__logo">Arfian Joko</a>
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav__item">
-                        <a href="#home" class="nav__link active-link">
-                            <i class='bx bx-home nav__icon'></i>Home
-                        </a>
+<div class="resume" id="resume">
+    <div class="resume_left">
+        <div class="resume_profile">
+            <img src="profil.jpg" alt="profil">
+        </div>
+        <div class="resume_content">
+            <div class="resume_item resume_info">
+                <div class="title">
+                    <p class="bold">Arfian Joko Rahayu</p>
+                    <p class="regular">Web Developer</p>
+                </div>
+                <ul>
+                    <li>
+                        <div class="icon">
+                            <i class="fas fa-map-signs"></i>
+                        </div>
+                        <div class="data">
+                            Ngemplak, Sleman <br> Yogyakarta
+                        </div>
                     </li>
-                    <li class="nav__item">
-                        <a href="#profile" class="nav__link">
-                            <i class='bx bx-user nav__icon'></i>Profil
-                        </a>
+                    <li>
+                        <div class="icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="data">
+                            <a href="https://api.whatsapp.com/send/?phone=081576442030&text&app_absent=0" target="_blank">
+                                0815 7642 230
+                            </a>
+                        </div>
                     </li>
-                    <li class="nav__item">
-                        <a href="#education" class="nav__link">
-                            <i class='bx bx-book nav__icon'></i>Pendidikan
-                        </a>
+                    <li>
+                        <div class="icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="data">
+                            <a href="mailto:arfianjo@gmail.com" target="_blank">
+                                arfianjo@gmail.com
+                            </a>
+                        </div>
                     </li>
-                    <li class="nav__item">
-                        <a href="#skills" class="nav__link">
-                            <i class='bx bx-receipt nav__icon'></i>Kemampuan
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#experience" class="nav__link">
-                            <i class='bx bx-briefcase-alt nav__icon'></i>Pengalaman
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#certificate" class="nav__link">
-                            <i class='bx bx-book-reader'></i></i>Projek
-                        </a>
+                    <li>
+                        <div class="icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="data">
+                            <p class="print">Uduh Curriculum Vitae</p>
+                        </div>
                     </li>
                 </ul>
             </div>
-            <div class="nav__toggle" id="nav-toggle">
-                <i class='bx bx-grid-alt'></i>
+            <div class="resume_item resume_skills">
+                <div class="title">
+                    <p class="bold">Kemampuan</p>
+                </div>
+                <ul>
+                    <li>
+                        <div class="skill_name">
+                            HTML 5 & CSS
+                        </div>
+                        <div class="skill_progress">
+                            <span style="width: 95%;"></span>
+                        </div>
+                        <div class="skill_per">95%</div>
+                    </li>
+                    <li>
+                        <div class="skill_name">
+                            JS
+                        </div>
+                        <div class="skill_progress">
+                            <span style="width: 60%;"></span>
+                        </div>
+                        <div class="skill_per">60%</div>
+                    </li>
+                    <li>
+                        <div class="skill_name">
+                            Restfull
+                        </div>
+                        <div class="skill_progress">
+                            <span style="width: 30%;"></span>
+                        </div>
+                        <div class="skill_per">30%</div>
+                    </li>
+                    <li>
+                        <div class="skill_name">
+                            PHP
+                        </div>
+                        <div class="skill_progress">
+                            <span style="width: 60%;"></span>
+                        </div>
+                        <div class="skill_per">60%</div>
+                    </li>
+                    <li>
+                        <div class="skill_name">
+                            Mysql
+                        </div>
+                        <div class="skill_progress">
+                            <span style="width: 60%;"></span>
+                        </div>
+                        <div class="skill_per">60%</div>
+                    </li>
+                </ul>
             </div>
-        </nav>
-    </header>
-    <!-- Header End -->
-    <!-- Main Start -->
-    <main class="l-main bd-container">
-        <div class="resume" id="area-cv">
-            <div class="resume__left">
-                <!-- Home -->
-                <section class="home" id="home">
-                    <div class="container section bd-grid">
-                        <div class="home__data bd-grid">
-                            <img src="assets/img/profil.jpg" alt="" class="home__img">
-                            <h1 class="home__title">ARFIAN <b>JOKO</b></h1>
-                            <h3 class="home__profession">Web Developer</h3>
-                            <div>
-                                <a href="assets/pdf/ResumeCv.pdf" class="home__button-cellular">Download</a>
-                            </div>
+            <div class="resume_item resume_social">
+                <div class="title">
+                    <p class="bold">Sosial Media</p>
+                </div>
+                <ul>
+                    <li>
+                        <div class="icon">
+                            <i class="fab fa-facebook-square"></i>
                         </div>
-                        <div class="home__address bd-grid">
-                            <span class="home__information">
-                                <i class="bx bx-map home__icon"></i> Yogyakarta, Indonesia
-                            </span>
-                            <span class="home__information">
-                                <i class="bx bx-envelope home__icon"></i> arfianjo@gmail.com
-                            </span>
-                            <span class="home__information">
-                                <i class="bx bx-phone home__icon"></i> 08157642230
-                            </span>
+                        <div class="data">
+                            <a href="https://www.facebook.com/arfianjoo/">
+                                <p>@arfianjoo</p>
+                            </a>
                         </div>
-                    </div>
-                    <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
-                    <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
-                </section>
-                <!-- Home -->
-                <!-- Social -->
-                <section class="social section">
-                    <h2 class="section-title">Sosial Media</h2>
-                    <div class="social__container bd-grid">
-                        <a href="https://www.linkedin.com/in/arfianjo/" target="_blank" class="social__link">
-                            <i class="bx bxl-linkedin-square social__icon"></i>@arfianjo
-                        </a>
-                        <a href="https://www.facebook.com/arfianjoo/" target="_blank" class="social__link">
-                            <i class="bx bxl-facebook social__icon"></i>@arfianjoo
-                        </a>
-                        <a href="https://www.instagram.com/arfianjo_/" target="_blank" class="social__link">
-                            <i class="bx bxl-instagram social__icon"></i>@arfianjo_
-                        </a>
-                    </div>
-                </section>
-                <!-- Social -->
-                <!-- Profile -->
-                <section class="profile section" id="profile">
-                    <h2 class="section-title">Profil</h2>
-                    <p class="profile__description">
-                        Hallo, perkenalkan nama saya Arfian Joko Rahayu, bisa di panggil Arfian, saya lahir di boyolali 07 september 1998, saya tertarik di pemrograman web sejak SMK, Selain pemrograman web saya juga tertarik belajar dengan hal-hal baru seperti pemprograman mobile.
-                    </p>
-                </section>
-                <!-- Profile -->
-                <!-- Education -->
-                <section class="education section" id="education">
-                    <h2 class="section-title">Pendidikan</h2>
-                    <div class="education__container bd-grid">
-                        <div class="education__content">
-                            <div class="education__time">
-                                <span class="education__rounder"></span>
-                                <span class="education__line"></span>
-                            </div>
-                            <div class="education__data bd-grid">
-                                <h3 class="education__title">Rekayasa Perangkat Lunak</h3>
-                                <span class="education__studies">Smk Muhammadiyah 04 Boyolali</span>
-                                <span class="education__year">2014 - 2016</span>
-                            </div>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <i class="fab fa-instagram-square"></i>
                         </div>
-                        <div class="education__content">
-                            <div class="education__time">
-                                <span class="education__rounder"></span>
-                            </div>
-                            <div class="education__data bd-grid">
-                                <h3 class="education__title">D3 Teknik Informatika</h3>
-                                <span class="education__studies">Universitas Amikom Yogyakarta</span>
-                                <span class="education__year">2017 - 2020</span>
-                            </div>
+                        <div class="data">
+                            <a href="https://www.instagram.com/arfianjo_/" target="_blank">
+                                <p>@arfianjo_</p>
+                            </a>
                         </div>
-                    </div>
-                </section>
-                <!-- Education -->
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="data">
+                            <a href="https://www.linkedin.com/in/arfianjo/" target="_blank">
+                                <p>@arfianjo</p>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
             </div>
-            <div class="resume__right">
-                <!-- Skills -->
-                <section class="skills section" id="skills">
-                    <h2 class="section-title">Kemampuan</h2>
-                    <div class="skills__content bd-grid">
-                        <ul class="skills__data">
-                            <li class="skills__name">
-                                <span class="skills__circle"></span> Html 5
-                            </li>
-                            <li class="skills__name">
-                                <span class="skills__circle"></span> Css (Bootstrap / Materialize)
-                            </li>
-                            <li class="skills__name">
-                                <span class="skills__circle"></span> Javascript
-                            </li>
-                        </ul>
-                        <ul class="skills__data">
-                            <li class="skills__name">
-                                <span class="skills__circle"></span> PHP (Codeigniter / Laravel)
-                            </li>
-                            <li class="skills__name">
-                                <span class="skills__circle"></span> MySQl
-                            </li>
-                            <li class="skills__name">
-                                <span class="skills__circle"></span> Restapi (Belajar)
-                            </li>
-                        </ul>
-                    </div>
-                </section>
-                <!-- Skills -->
-                <!-- Experience -->
-                <section class="experience section" id="experience">
-                    <h2 class="section-title">Pengalaman Kerja</h2>
-                    <div class="experience__container bd-grid">
-                        <div class="experience__content">
-                            <div class="experience__time">
-                                <span class="experience__rounder"></span>
-                                <span class="experience__line"></span>
-                            </div>
-                            <div class="experience__data bd-grid">
-                                <h3 class="experience__title">Magang Junior Fullstack Web Developer</h3>
-                                <span class="experience__company">2019 to 2019 | Imersa Solusi Teknologi</span>
-                                <p class="exeperience__description">Membuat web aplikasi transpoartasi, menggunakn bahasa pemrograman php framework codeigniter dan menggunakan database MySql</p>
-                            </div>
-                        </div>
-                        <div class="experience__content">
-                            <div class="experience__time">
-                                <span class="experience__rounder"></span>
-                            </div>
-                            <div class="experience__data bd-grid">
-                                <h3 class="experience__title">Junior Fullstack Web Developer</h3>
-                                <span class="experience__company">2020 to 2021 | Global Eushanosoft</span>
-                                <p class="exeperience__description">Maintenance website customer yang masih ada bug dan error</p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- Experience -->
-                <!-- Certificates -->
-                <section class="certificate section" id="certificates">
-                    <h2 class="section-title">Bahasa</h2>
-                    <div class="certificate__container bd-grid">
-                        <div class="certificate_content">
-                            <h3 class="certificate__title">Web Aplikasi Rental Mobil | (Projek Tugas Akhir)</h3>
-                            <p class="certificate_description">Web aplikasi rental mobil dibuat dengan menggunakan framework php codeigniter.</p>
-                        </div>
-                        <div class="certificate_content">
-                            <h3 class="certificate__title">Website Umroh dan haji | (PT. Global Eushanosoft)</h3>
-                            <p class="certificate_description">Penamabah fitur paket B2B dan beberapa fitur lainya <a id="ling" href="http://umrohrmi.com/" target="_blank">Link</a></p>
-                        </div>
-                        <div class="certificate_content">
-                            <h3 class="certificate__title">Website IDI Purworejo | (PT. Global Eushanosoft)</h3>
-                            <p class="certificate_description">Website idi puworejo <a id="ling" href="http://idipurworejo.online/" target="_blank">Link</a></p>
-                        </div>
-                    </div>
-                </section>
-                <!-- Certificates -->
-                <!-- Languages -->
-                <section class="languages section">
-                    <h2 class="section-title">Bahasa</h2>
-                    <div class="languages__container">
-                        <ul class="languages_content bd-grid">
-                            <li class="languages__name">
-                                <span class="languages__circle"></span> Bahasa Indonesia
-                            </li>
-                        </ul>
-                    </div>
-                </section>
-                <!-- Languages -->
-                <!-- Interests -->
-                <section class="interests section">
-                    <h2 class="section-title">Hobi</h2>
-                    <div class="interests__container bd-grid">
-                        <div class="interests__content">
-                            <i class="bx bx-headphone interests__icon"></i>
-                            <span class="interests__name">Musik</span>
-                        </div>
-                        <div class="interests__content">
-                            <i class="bx bxs-plane-alt interests__icon"></i>
-                            <span class="interests__name">Liburan</span>
-                        </div>
-                        <div class="interests__content">
-                            <i class="bx bx-book interests__icon"></i>
-                            <span class="interests__name">Membaca Buku</span>
-                        </div>
-                        <div class="interests__content">
-                            <i class="bx bx-dumbbell interests__icon"></i>
-                            <span class="interests__name">Olahraga</span>
-                        </div>
-                    </div>
-                </section>
-                <!-- Interests -->
+        </div>
+    </div>
+    <div class="resume_right">
+        <div class="resume_item resume_about">
+            <div class="title">
+                <p class="bold">Tentang Saya</p>
             </div>
-        </div>        
-    </main>
-    <!-- Main End -->
-    <!-- Scroll Top Start -->
-    <a href="#" class="scrolltop" id="scroll-top">
-        <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
-    </a>
-    <!-- Scroll Top End -->
+            <p>Hallo, perkenalkan nama saya Arfian Joko Rahayu, bisa di panggil Arfian, saya lahir di boyolali 07 september 1998, saya tertarik di pemrograman web sejak SMK, Selain pemrograman web saya juga tertarik belajar dengan hal-hal baru seperti pemprograman mobile.</p>
+        </div>
+        <div class="resume_item resume_work">
+            <div class="title">
+                <p class="bold">Pengalaman Kerja</p>
+            </div>
+            <ul>
+                <li>
+                    <div class="date">2020 (Desember) - 2021 (April)</div> 
+                    <div class="info">
+                        <p class="semi-bold">PT Global Eushanosoft</p> 
+                        <p>Menbahkan fitur fitur yang belmu ada pada website customer</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="resume_item resume_education">
+            <div class="title">
+                <p class="bold">Pendidikan</p>
+            </div>
+            <ul>
+                <li>
+                    <div class="date">2014 - 2016</div> 
+                    <div class="info">
+                        <p class="semi-bold">RPL (Smk Muhammadiyah 04 Boyolali)</p> 
+                        <p>Jurusan rekayasa rerangkat lunak di smk muhammadiyah 04 boyolali, mengambil konsentrasi web programming</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="date">2017 - 2020</div>
+                    <div class="info">
+                        <p class="semi-bold">TI (Universitas Amikom Yogyakarta</p> 
+                        <p>Jurusan rekayasa rerangkat lunak di universitas amikom yogyakarta, mengambil konsentrasi web programming</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="resume_item resume_social">
+            <div class="title">
+                <p class="bold">Projek Web</p>
+            </div>
+            <ul>
+                <li>
+                    <div class="data">
+                        <p class="semi-bold">Repositories Github</p>
+                        <a href="https://github.com/arfianjoko" target="_blank">
+                            <p class="github">arfianjoko</p>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="resume_item resume_hobby">
+            <div class="title">
+                <p class="bold">Hobi</p>
+            </div>
+            <ul>
+                <li><i class="fas fa-book"></i></li>
+                <li><i class="fas fa-gamepad"></i></li>
+                <li><i class="fas fa-music"></i></li>
+                <li><i class="fab fa-pagelines"></i></li>
+            </ul>
+        </div>
+    </div>
+</div>
 
-    <!--========== HTML2PDF ==========-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.8.1/html2pdf.bundle.min.js"></script>
-
-    <!--========== MAIN JS ==========-->
-    <script src="assets/js/main.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="jQuery.print.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
