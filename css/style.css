@@ -1398,7 +1398,8 @@ a {
 .blog-banner-area {
     height: 280px;
     position: relative;
-    z-index: 1
+    z-index: 1;
+    background-image: url(../img/theStore/background.jpg) !important;
 }
 
 @media (min-width: 1000px) {
